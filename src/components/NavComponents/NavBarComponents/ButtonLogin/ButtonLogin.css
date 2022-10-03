@@ -1,0 +1,55 @@
+.bt__login__body {
+    background-position: 25px 0px;
+    box-sizing: border-box;
+    /* color: rgb(255, 255, 255); */
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    line-height: 47px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    outline: rgb(255, 255, 255) none 0px;
+    transition: all 0.2s cubic-bezier(0.72, 0.01, 0.56, 1) 0s;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    min-width: 50px;
+    border-color: var(--discord-color);
+    font-size:large;
+    background: var(--discord-color) url("https://assets-global.website-files.com/6257adef93867e50d84d30e2/62595384f934b806f37f4956_145dc557845548a36a82337912ca3ac5.svg") no-repeat scroll 5px 5px /40px 40px padding-box border-box;
+}
+
+.bt__login__body:hover {
+    padding-left: 60px;
+    padding-right: 10px;
+    width: auto;
+}
+
+.bt__login__body span {
+    display: none;
+    cursor: pointer;
+}
+
+.bt__login__body:hover span {
+    display: inline;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: small;
+    border: 0px none rgb(255, 255, 255);
+    outline: rgb(255, 255, 255) none 0px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}

@@ -1,0 +1,24 @@
+.add__button__continer {
+    padding-top: 13px;
+    margin-left: 5vw;
+}
+
+.add__button {
+    color: transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    background: var(--color-2) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3Cpath d='M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2z' fill='rgba(255,255,255,1)'/%3E%3C/svg%3E") no-repeat scroll 0px 0px /25px 25px padding-box border-box;
+}
+.add__button:hover{
+    background: white url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3Cpath d='M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2z' fill='rgba(13,23,33,1)'/%3E%3C/svg%3E") no-repeat scroll 0px 0px /25px 25px padding-box border-box;
+}
+
+.add__button::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.add__button::before {
+    content: '';
+}

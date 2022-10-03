@@ -1,0 +1,47 @@
+.mini__profile {
+    background-position: 0px 0px;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    line-height: 45px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    outline: rgb(255, 255, 255) none 0px;
+    transition: all 0.2s cubic-bezier(0.72, 0.01, 0.56, 1) 0s;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: solid 2px var(--color-2);
+}
+.mini__profile:hover{
+    padding-left: 60px;
+    padding-right: 10px;
+    width: auto;
+}
+.mini__profile:hover span{
+    display: inline;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: small;
+    border: 0px none rgb(255, 255, 255);
+    outline: rgb(255, 255, 255) none 0px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.mini__profile span{
+    display: none;
+}

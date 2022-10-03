@@ -1,0 +1,12 @@
+.channel__list{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.List__MiniChannel{
+    display: flex;
+    height: 50px;
+    vertical-align: middle;
+}

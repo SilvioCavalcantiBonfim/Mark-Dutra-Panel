@@ -1,0 +1,29 @@
+.logo{
+    line-height: 40px;
+    padding: 0;
+    height: 50px;
+    vertical-align: middle;
+    font-family: Logo;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.logoimg{
+    display: flex;
+    position: relative;
+    height: 50px;
+}
+.logoimg div{
+    width: 4px;
+    border-radius: 5px;
+    transition: height 1000ms linear, top 1000ms linear;
+    position: absolute;
+}
+.logo span{
+    margin-left: 70px;
+    text-transform: initial;
+    font-size: 50px;
+    top: 10px;
+    position: relative;
+    letter-spacing: 2px;
+}

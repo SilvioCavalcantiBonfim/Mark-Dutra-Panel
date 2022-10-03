@@ -1,0 +1,4 @@
+.body__conteiner{
+    width: 100%;
+    min-height: calc(100vh - 210px);
+}

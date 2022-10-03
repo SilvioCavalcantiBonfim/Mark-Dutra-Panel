@@ -1,0 +1,57 @@
+.foot__bar{
+    width: 100%;
+    background-color: var(--color-2);
+    height: 70px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer3{
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    color: #dddddd;
+    position: absolute;
+    bottom: 21px;
+    right: 10px;
+    font-weight: bold;
+}
+.footer3 a:visited, .footer3 a:link, .footer3 a:hover, .footer3 a:active{
+    text-decoration: none;
+    color: #dddddd;
+}
+
+.footer2{
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    position: absolute;
+    bottom: calc(calc(70px - 0.75rem)/2);
+    width: 300px;
+    left: calc(50vw - 150px);
+    text-align: center;
+    color: #dddddd;
+    font-weight: bold;
+}
+.footer2 a:visited, .footer2 a:link, .footer2 a:hover, .footer2 a:active{
+    text-decoration: none;
+    color: #dddddd;
+}
+.footer1{
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    position: absolute;
+    bottom: 21px;
+    left: 10px;
+    color: #dddddd;
+    font-weight: bold;
+}
+.footer1 a:visited, .footer1 a:link, .footer1 a:hover, .footer1 a:active{
+    text-decoration: none;
+    color: #dddddd;
+}
+.footer3 a{
+    margin-left: 10px;
+}
+.footer1 a{
+    margin-right: 10px;
+}

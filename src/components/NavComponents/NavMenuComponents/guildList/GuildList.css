@@ -1,0 +1,38 @@
+.guild__select{
+    min-width: 46px;
+    min-height: 46px;
+    transition: all 0.2s cubic-bezier(0.72, 0.01, 0.56, 1) 0s;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    border: solid 2px white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding-left: 0;
+}
+.guild__select:hover{
+    padding-left: 10px;
+}
+
+.guild__select:hover select{
+    display: inline;
+    margin-left: 50px;
+    margin-right: 10px;
+    color: white;
+}
+
+.guild__select select{
+    margin-top: 8px;
+    background: transparent;
+    height: 30px;
+    min-width:100px;
+    border: none;
+    cursor: pointer;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    appearance:none;
+    display: none;
+}

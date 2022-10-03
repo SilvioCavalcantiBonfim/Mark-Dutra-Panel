@@ -1,0 +1,21 @@
+
+.miniChannel{
+    color: white;
+    border: solid 1px white;
+    position: relative;
+    border-radius: 25px / 25px;
+    display: flex;
+    height: 34px;
+    vertical-align: middle;
+}
+.miniChannel button{
+    position: relative;
+    top: 1px;
+    right: 1px;
+}
+.miniChannel label{
+    position: relative;
+    left: 5px;
+    top: 8px;
+    height: auto;
+}

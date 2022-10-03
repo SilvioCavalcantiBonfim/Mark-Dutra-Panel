@@ -1,0 +1,15 @@
+.Header__body {
+    margin: 0;
+    border: 0;
+    width: calc(100vw - 20px);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    z-index: 10000;
+}
+/* rgb(13,23,33) */
+.dark{
+    background-color: var(--color-1);
+    /* #1d2a35!important; */
+}

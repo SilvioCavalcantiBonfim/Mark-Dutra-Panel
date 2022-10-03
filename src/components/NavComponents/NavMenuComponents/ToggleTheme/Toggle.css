@@ -1,0 +1,49 @@
+.themebox button {
+    border: none;
+    background-color: var(--color-2);
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+}
+
+.themebox {
+    --transition-duration: 400ms;
+    width: 50px;
+    height: 50px;
+    transform: scale(0.5);
+}
+
+.themebox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* transition: color, background-color var(--transition-duration); */
+}
+
+.themebox svg {
+    /* transition: stroke var(--transition-duration); */
+    stroke: white;
+}
+
+.themebox .moon-icon {
+    stroke-dasharray: 0px 1px;
+    opacity: 0;
+    transition: stroke-dasharray 0.5s ease-in, opacity 300ms ease-in;
+}
+
+.themebox .sun-icon {
+    stroke-dasharray: 1px 1px;
+    opacity: 1;
+    transition: stroke-dasharray 0.5s ease-in, opacity 300ms ease-in;
+}
+
+.themebox.dark .moon-icon {
+    stroke-dasharray: 1px 1px;
+    opacity: 1;
+}
+
+.themebox.dark .sun-icon {
+    stroke-dasharray: 0px 1px;
+    opacity: 0;
+}
