@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/Mark-Dutra-Panel/static/css/main.b754863c.css",
-    "main.js": "/Mark-Dutra-Panel/static/js/main.0e0e6f75.js",
+    "main.js": "/Mark-Dutra-Panel/static/js/main.6ded2478.js",
     "static/js/787.a16edecd.chunk.js": "/Mark-Dutra-Panel/static/js/787.a16edecd.chunk.js",
     "static/media/Birds of Paradise.ttf": "/Mark-Dutra-Panel/static/media/Birds of Paradise.f589e27af0d85b8a9bbc.ttf",
     "static/media/GeosansLight.ttf": "/Mark-Dutra-Panel/static/media/GeosansLight.bc00520faeb56c4e3750.ttf",
     "static/media/firebase.svg": "/Mark-Dutra-Panel/static/media/firebase.f5fe162c7ea94de4bc2e04ea2389a569.svg",
     "index.html": "/Mark-Dutra-Panel/index.html",
     "main.b754863c.css.map": "/Mark-Dutra-Panel/static/css/main.b754863c.css.map",
-    "main.0e0e6f75.js.map": "/Mark-Dutra-Panel/static/js/main.0e0e6f75.js.map",
+    "main.6ded2478.js.map": "/Mark-Dutra-Panel/static/js/main.6ded2478.js.map",
     "787.a16edecd.chunk.js.map": "/Mark-Dutra-Panel/static/js/787.a16edecd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b754863c.css",
-    "static/js/main.0e0e6f75.js"
+    "static/js/main.6ded2478.js"
   ]
 }
