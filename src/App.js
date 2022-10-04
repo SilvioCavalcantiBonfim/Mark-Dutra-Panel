@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { useCookies } from 'react-cookie';
 import NavBar from './components/NavComponents/NavBar';
 import NavMenu from './components/NavComponents/NavMenu';
-import { LOAD_DISCORD_PROFILE, LOAD_GUILDS, SET_COOKIES } from './System/discord.api';
+import { LOAD_DISCORD_PROFILE, LOAD_GUILDS, redrect, SET_COOKIES } from './System/discord.api';
 import Player from './components/BodyComponents/MusicComponent/MusicPlayer';
 import Body from './components/BodyComponents/Body';
 import FootBar from './components/FooterComponents/FootBar';
@@ -71,8 +71,11 @@ function App() {
           theme: THEME,
           userInfo: USER_OBJECT.PROFILE,
           logoutHandle: () => {
-            removeCookies('token_type', { path: '/' });
-            removeCookies('access_token', { path: '/' });
+            removeCookies('token_type', { path: '/Mark-Dutra-Panel' });
+            removeCookies('access_token', { path: '/Mark-Dutra-Panel' });
+            SET_USER_OBJECT({ PROFILE: {}, STATUS: false });
+            SET_GUILD_OPTION({ SELECT: 0, LIST: [] });
+            redrect();
           }
         }} />
       <NavMenu

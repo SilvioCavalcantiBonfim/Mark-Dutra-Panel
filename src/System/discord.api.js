@@ -1,7 +1,7 @@
 import axios from 'axios';
 import CryptoJS from 'crypto-js';
 
-const redrect = () => { window.location.hash = '' }
+export const redrect = () => { window.location.href = process.env.REACT_APP_HOMEPAGE}
 
 export const LOAD_DISCORD_PROFILE = (props) => {
     if (JSON.stringify(Object.keys(props.cookies)) === JSON.stringify(['token_type', 'access_token'])) {
